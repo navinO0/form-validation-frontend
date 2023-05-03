@@ -1,0 +1,40 @@
+.data-table-container {
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+  padding: 20px;
+}
+
+.csv-search-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  padding: 10px;
+}
+
+.button {
+  padding: 5px 20px 5px 20px;
+  border: solid 1px #a19999f4;
+  font-family: roboto;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  border-radius: 7px;
+}
+.search-component {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.loader-table {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
